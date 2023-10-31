@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "64eca0ce36f2b714102b91c3"
+  },
+  "naziv": "t9",
+  "cena": "100",
+  "trajanje": "100",
+  "specijalizacija": "hirurgija-traume",
+  "predlozen_od_strane": "lekar1",
+  "datum": {
+    "$date": {
+      "$numberLong": "1693229262690"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eca1045aa8386260d86008"
+  },
+  "naziv": "t10",
+  "cena": "100",
+  "trajanje": "100",
+  "specijalizacija": "hirurgija-traume",
+  "predlozen_od_strane": "lekar1",
+  "datum": {
+    "$date": {
+      "$numberLong": "1693236516577"
+    }
+  },
+  "__v": 0
+}]

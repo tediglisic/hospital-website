@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "64e6fff189163bd1fd7263d1"
+  },
+  "naziv": "o3",
+  "cena": "200",
+  "trajanje": "20",
+  "specijalizacija": "opsta-hirurgija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64e6fff989163bd1fd7263d4"
+  },
+  "naziv": "o4",
+  "cena": "110",
+  "trajanje": "25",
+  "specijalizacija": "opsta-hirurgija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64e7000389163bd1fd7263d7"
+  },
+  "naziv": "o5",
+  "cena": "200",
+  "trajanje": "5",
+  "specijalizacija": "opsta-hirurgija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64e7000d89163bd1fd7263da"
+  },
+  "naziv": "k1",
+  "cena": "111",
+  "trajanje": "10",
+  "specijalizacija": "kardio-hirurgija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64e7001489163bd1fd7263dd"
+  },
+  "naziv": "k2",
+  "cena": "100",
+  "trajanje": "10",
+  "specijalizacija": "kardio-hirurgija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64e7002989163bd1fd7263e3"
+  },
+  "naziv": "t1",
+  "cena": "300",
+  "trajanje": "90",
+  "specijalizacija": "hirurgija-traume",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64e7002e89163bd1fd7263e5"
+  },
+  "naziv": "t2",
+  "cena": "1000",
+  "trajanje": "10",
+  "specijalizacija": "hirurgija-traume",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ec91a73843acddb8dfa89c"
+  },
+  "naziv": "p1",
+  "cena": "100",
+  "trajanje": "30",
+  "specijalizacija": "pedijatrija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ec91ad3843acddb8dfa8a0"
+  },
+  "naziv": "p2",
+  "cena": "100",
+  "trajanje": "25",
+  "specijalizacija": "pedijatrija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ec91b33843acddb8dfa8a4"
+  },
+  "naziv": "p3",
+  "cena": "100",
+  "trajanje": "40",
+  "specijalizacija": "pedijatrija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ec91b93843acddb8dfa8a8"
+  },
+  "naziv": "p4",
+  "cena": "100",
+  "trajanje": "55",
+  "specijalizacija": "pedijatrija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ec91c23843acddb8dfa8ac"
+  },
+  "naziv": "d4",
+  "cena": "100",
+  "trajanje": "15",
+  "specijalizacija": "dermatologija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ec91c73843acddb8dfa8b0"
+  },
+  "naziv": "d5",
+  "cena": "100",
+  "trajanje": "15",
+  "specijalizacija": "dermatologija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eca18f5aa8386260d86019"
+  },
+  "naziv": "t8",
+  "cena": "100",
+  "trajanje": "100",
+  "specijalizacija": "hirurgija-traume",
+  "__v": 0
+}]

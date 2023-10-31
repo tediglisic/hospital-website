@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "64ecb54519df57341cc849da"
+  },
+  "korisnicko_ime": "lekar3",
+  "odmor_od": {
+    "$date": {
+      "$numberLong": "1693353600000"
+    }
+  },
+  "odmor_do": {
+    "$date": {
+      "$numberLong": "1693353600000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecb58319df57341cc849e0"
+  },
+  "korisnicko_ime": "lekar3",
+  "odmor_od": {
+    "$date": {
+      "$numberLong": "1695859200000"
+    }
+  },
+  "odmor_do": {
+    "$date": {
+      "$numberLong": "1697500800000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda09419df57341cc84aae"
+  },
+  "korisnicko_ime": "lekar1",
+  "odmor_od": {
+    "$date": {
+      "$numberLong": "1694217600000"
+    }
+  },
+  "odmor_do": {
+    "$date": {
+      "$numberLong": "1694217600000"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda0a419df57341cc84ab2"
+  },
+  "korisnicko_ime": "lekar1",
+  "odmor_od": {
+    "$date": {
+      "$numberLong": "1696291200000"
+    }
+  },
+  "odmor_do": {
+    "$date": {
+      "$numberLong": "1697500800000"
+    }
+  },
+  "__v": 0
+}]

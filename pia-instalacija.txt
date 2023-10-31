@@ -1,0 +1,3 @@
+dodaj za pacijent3 i pacijent5 zakazane preglede u proslosti kako bi mogla tamo izvestaje da napisem
+kod yang i torres ih dodaj
+npm install pdfmake --save

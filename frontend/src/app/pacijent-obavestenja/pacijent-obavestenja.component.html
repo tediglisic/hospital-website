@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocetna</title>
+</head>
+
+<body background="../../assets/back1.jpg" style="min-height: 100vh; min-width: 100vh; margin: 0%; 
+    background-repeat: no-repeat; background-position: center; background-size: cover;">
+
+    <div class="container" >
+        <div class="row" style="margin-bottom: 25px; display: flex; justify-content: center; width: 60%; margin-left: 20%;">
+           
+                <img src="/assets/logo.jpeg" style="margin-top: 20px; border-style: solid; border-color: black; ">
+            
+        </div>
+        
+        <menu  class="container"
+        style="background-color: rgb(1, 4, 20); display: flex; justify-content: center; margin-left: 20%;
+        height: 40px; padding-left: 0%; color: aliceblue; width: 60%;">
+                    <div class="row" style="display: flex; flex-direction: row; width: 100%;
+                    justify-content: space-evenly;">
+                        <div style="width: 100%; text-align: center; padding-top: 10px; " class="menu_border_exeption">
+                            <a routerLink="/pacijent/pocetna" style="color: aliceblue; text-decoration-line: none;">Profil</a></div> 
+                        <div style="width: 100%; text-align: center;  padding-top: 10px;" class="menu_border">
+                            <a routerLink="/pacijent/lekari"style="color: aliceblue; text-decoration-line: none;" >Lekari</a></div> 
+                       <div style="width: 100%; text-align: center;  padding-top: 10px;"class="menu_border">
+                        <a routerLink="/pacijent/termini_izvestaji"style="color: aliceblue; text-decoration-line: none;" >Pregledi</a></div> 
+                        <div style="width: 100%; text-align: center;  padding-top: 10px;"class="menu_border">
+                            <a routerLink="/pacijent/obavestenja"style="color: aliceblue; text-decoration-line: none;" >Obavestenja</a></div> 
+                                <div style="width: 100%; text-align: center;  padding-top: 10px;"class="menu_border">
+                                    <a routerLink=""style="color: aliceblue; text-decoration-line: none;" >Izloguj se</a></div> 
+                                           
+                   </div>
+                
+        </menu>
+
+        <div class="container" style="background-color: aliceblue; width: 60%; margin-left: 20%;
+        border-radius: 25px;">
+            <div class="row" style="display: flex; justify-content: center; padding-left: 10%; margin-bottom: none;">
+                <div class="col-sm-12">
+                    <h3>
+                        Obavestenja
+                    </h3>
+                </div>
+                
+            </div>
+            <hr>
+
+            <div class="row" style="display: flex; justify-content: center;">
+                <form action="">
+                    Odaberi : <select name="izbor" [(ngModel)]="izbor">
+                        <option value="neprocitana" name="izbor">Neprocitana</option>
+                        <option value="procitana" name="izbor">Procitana</option>
+                    </select><br>
+                    <button type="submit"(click)="izaberiObavestenja()">Pretrazi</button>
+                    <br><br>
+                    
+               </form>
+            </div>
+            <div class="row" style="margin-bottom: 5px;">
+                <div class="row">
+                   
+                    <div class="row" style="display: flex; flex-direction: row; margin-left: 10%; 
+                        background-color: rgb(252, 252, 252); margin-right: 10%; height: 200px;
+                        border-style: solid; margin-top: 10px; border-radius: 20px;"
+                        *ngFor="let obavestenje of obavestenja">
+                    
+                        <div class="row" style="margin: 40px;">
+                            <div style="height: 30px;">
+                                Naslov obavestenja: {{obavestenje.tip}} <br>
+                                Datum objave: {{obavestenje.datum_string}}
+                                <hr style="color: black;">
+                            </div>
+                            <div style="margin-top: 10px;">
+                               <p>
+                                {{obavestenje.text}}
+                                </p>
+                            </div>
+
+                            <div style="margin-top: 10px;">
+                                <button style="margin-right: 10px;"(click)="procitajObavestenje(obavestenje)">Procitaj</button>
+                            </div>
+                        </div>
+                    
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+      <footer style="height: 50px; background-color: rgb(5, 19, 44); margin-left: 20%; width: 60%; text-align: center; 
+      color: rgb(9, 46, 78); padding-top: 20px;"
+      >
+         footer@Teodora Glisic- Pia projekat
+      </footer>
+
+   
+
+    
+</body>
+</html>
+
+
+
+

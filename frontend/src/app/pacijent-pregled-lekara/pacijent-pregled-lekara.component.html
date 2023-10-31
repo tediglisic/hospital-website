@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocetna</title>
+</head>
+
+<body background="../../assets/back1.jpg" style="min-height: 100vh; min-width: 100vh; margin: 0%; 
+    background-repeat: no-repeat; background-position: center; background-size: cover;">
+
+    <div class="container" >
+        <div class="row" style="margin-bottom: 25px; display: flex; justify-content: center; width: 60%; margin-left: 20%;">
+           
+                <img src="/assets/logo.jpeg" style="margin-top: 20px; border-style: solid; border-color: black; ">
+            
+        </div>
+        
+        <menu  class="container"
+        style="background-color: rgb(1, 4, 20); display: flex; justify-content: center; margin-left: 20%;
+        height: 40px; padding-left: 0%; color: aliceblue; width: 60%;">
+                    <div class="row" style="display: flex; flex-direction: row; width: 100%;
+                    justify-content: space-evenly;">
+                        <div style="width: 100%; text-align: center; padding-top: 10px; " class="menu_border_exeption">
+                            <a routerLink="/pacijent/pocetna" style="color: aliceblue; text-decoration-line: none;">Profil</a></div> 
+                        <div style="width: 100%; text-align: center;  padding-top: 10px;" class="menu_border">
+                            <a routerLink="/pacijent/lekari"style="color: aliceblue; text-decoration-line: none;" >Lekari</a></div> 
+                       <div style="width: 100%; text-align: center;  padding-top: 10px;"class="menu_border">
+                        <a routerLink="/pacijent/termini_izvestaji"style="color: aliceblue; text-decoration-line: none;" >Pregledi</a></div> 
+                        <div style="width: 100%; text-align: center;  padding-top: 10px;"class="menu_border">
+                            <a routerLink="/pacijent/obavestenja"style="color: aliceblue; text-decoration-line: none;" >Obavestenja</a></div> 
+                                <div style="width: 100%; text-align: center;  padding-top: 10px;"class="menu_border">
+                                    <a routerLink=""style="color: aliceblue; text-decoration-line: none;" >Izloguj se</a></div> 
+                                           
+                   </div>
+                
+        </menu>
+        <div class="container" style="background-color: aliceblue; width: 60%; margin-left: 20%; padding-bottom: 10px;">
+            <div class="row" style="display: flex; justify-content: center; margin-bottom: none;">
+                <h3>
+                    Nasi lekari
+                </h3>
+            </div>
+            <hr>
+            <div class="row">
+                <div style="padding: 10px; display: flex; justify-content: center;">
+                    <form action="">
+                        Sortiraj lekare po :<br>
+                        <select name="Sortiraj" [(ngModel)]="sortiraj_po">
+                            <option value="ime">Ime</option>
+                            <option value="prezime">Prezime</option>
+                            <option value="specijalizacija">Specijalizacija</option>
+                            <option value="ogranak">Ogranak u ordinaciji</option>
+                        </select>
+
+                        <input type="radio" id="opadajuce" name="fav_language" value="opadajuce"
+                            [(ngModel)]="sortiraj_opcija">
+                          <label for="html">Opadajuce</label>
+                          <input type="radio" id="neopadajuce" name="fav_language" value="neopadajuce"
+                            [(ngModel)]="sortiraj_opcija">
+                          <label for="css">Neopadajuce</label>
+                        <button type="submit" style="margin-left: 5px;" (click)="sortiraj()">Sortiraj</button>
+                        <br><br>
+                    </form>
+                </div>
+                <div style="display: flex; margin-left: 23%;">
+                    <form>
+                        Pretrazi lekare po: <br><br>
+                        Ime : <input type="text" name="ime" [(ngModel)]="pretrazi_ime"><br><br>
+                        Prezime : <input type="text" name="prezime" [(ngModel)]="pretrazi_prezime"> <br><br>
+                        Specijalizacija : <input type="text" name="specijalizacija"
+                            [(ngModel)]="pretrazi_specijalizacija"><br><br>
+                        Ogranak rada u klinici : <input type="text" name="ogranak"
+                        [(ngModel)]="pretrazi_ogranak">
+                        <button type="submit" style="margin-left: 5px;" (click)="pretrazi()">Pretrazi</button>
+                    </form>
+                </div>
+
+                <div style="display: flex; justify-content: center; margin-top: 20px;">
+                    <table>
+                        <tr style="background-color: rgb(3, 13, 68); color: aliceblue;">
+                            <td style="width: 200px;"></td>
+                            <td style="width:  200px;">Ime i prezime doktora</td>
+                            <td>Specijalizacija</td>
+                            <td>Ogranak</td>
+                            <td>Profil</td>
+                        </tr>
+                        <tr *ngFor="let lekar of svi_lekari">
+                            <td style="display: flex; justify-content: center;">
+                                <img src={{lekar.profilna_slika}} style="
+                                        border-radius: 40%; width: 150px; height: 150px;">
+                            </td>
+                            <td>
+                                Dr.{{lekar.ime}} {{lekar.prezime}}
+                            </td>
+                            <td>
+                                {{lekar.specijalizacija}}
+                            </td>
+                            <td>
+                                {{lekar.ogranak_ordinacije}}
+                            </td>
+                            <td>
+                                <button (click)="pogledaj_profil(lekar)">Poseti profil lekara</button>
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </div>
+
+
+
+
+        </div>
+        </div>   
+
+    </div>
+        
+      <footer style="height: 50px; background-color: rgb(5, 19, 44); margin-left: 20%; width: 60%; text-align: center; 
+      color: rgb(9, 46, 78); padding-top: 20px;"
+      >
+         footer@Teodora Glisic- Pia projekat
+      </footer>
+
+   
+
+    
+</body>
+</html>
+

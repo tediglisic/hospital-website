@@ -1,0 +1,303 @@
+[{
+  "_id": {
+    "$oid": "64eda10d19df57341cc84ac1"
+  },
+  "id": 1,
+  "tip": "Podsetnik za pregled",
+  "text": "t8 u 9:41",
+  "datum": {
+    "$date": {
+      "$numberLong": "1693561260000"
+    }
+  },
+  "datum_string": "Datum: 1/9/2023 Vreme:9:41",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "ne"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda11319df57341cc84ac9"
+  },
+  "id": 2,
+  "tip": "Podsetnik za pregled",
+  "text": "t8 u 13:46",
+  "datum": {
+    "$date": {
+      "$numberLong": "1693575960000"
+    }
+  },
+  "datum_string": "Datum: 1/9/2023 Vreme:13:46",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "ne"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda11819df57341cc84ad1"
+  },
+  "id": 3,
+  "tip": "Podsetnik za pregled",
+  "text": "t8 u 13:46",
+  "datum": {
+    "$date": {
+      "$numberLong": "1695649560000"
+    }
+  },
+  "datum_string": "Datum: 25/9/2023 Vreme:13:46",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "ne"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda12c19df57341cc84adb"
+  },
+  "id": 4,
+  "tip": "Podsetnik za pregled",
+  "text": "t8 u 13:51",
+  "datum": {
+    "$date": {
+      "$numberLong": "1698155460000"
+    }
+  },
+  "datum_string": "Datum: 24/10/2023 Vreme:13:51",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "ne"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda13c19df57341cc84ae4"
+  },
+  "id": 5,
+  "tip": "Podsetnik za pregled",
+  "text": "o3 u 9:46",
+  "datum": {
+    "$date": {
+      "$numberLong": "1692265560000"
+    }
+  },
+  "datum_string": "Datum: 17/8/2023 Vreme:9:46",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "da"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda13f19df57341cc84aec"
+  },
+  "id": 6,
+  "tip": "Podsetnik za pregled",
+  "text": "o3 u 14:46",
+  "datum": {
+    "$date": {
+      "$numberLong": "1692283560000"
+    }
+  },
+  "datum_string": "Datum: 17/8/2023 Vreme:14:46",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "da"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda14419df57341cc84af4"
+  },
+  "id": 7,
+  "tip": "Podsetnik za pregled",
+  "text": "o3 u 14:46",
+  "datum": {
+    "$date": {
+      "$numberLong": "1690814760000"
+    }
+  },
+  "datum_string": "Datum: 31/7/2023 Vreme:14:46",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "da"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda14719df57341cc84afc"
+  },
+  "id": 8,
+  "tip": "Podsetnik za pregled",
+  "text": "o3 u 14:46",
+  "datum": {
+    "$date": {
+      "$numberLong": "1692197160000"
+    }
+  },
+  "datum_string": "Datum: 16/8/2023 Vreme:14:46",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "da"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda14a19df57341cc84b04"
+  },
+  "id": 9,
+  "tip": "Podsetnik za pregled",
+  "text": "o3 u 14:46",
+  "datum": {
+    "$date": {
+      "$numberLong": "1691160360000"
+    }
+  },
+  "datum_string": "Datum: 4/8/2023 Vreme:14:46",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "da"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda14d19df57341cc84b0c"
+  },
+  "id": 10,
+  "tip": "Podsetnik za pregled",
+  "text": "o3 u 18:46",
+  "datum": {
+    "$date": {
+      "$numberLong": "1691174760000"
+    }
+  },
+  "datum_string": "Datum: 4/8/2023 Vreme:18:46",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "da"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda15019df57341cc84b14"
+  },
+  "id": 11,
+  "tip": "Podsetnik za pregled",
+  "text": "o3 u 18:46",
+  "datum": {
+    "$date": {
+      "$numberLong": "1690742760000"
+    }
+  },
+  "datum_string": "Datum: 30/7/2023 Vreme:18:46",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "ne"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda15619df57341cc84b1c"
+  },
+  "id": 12,
+  "tip": "Podsetnik za pregled",
+  "text": "o3 u 18:46",
+  "datum": {
+    "$date": {
+      "$numberLong": "1688064360000"
+    }
+  },
+  "datum_string": "Datum: 29/6/2023 Vreme:18:46",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "ne"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda15919df57341cc84b24"
+  },
+  "id": 13,
+  "tip": "Podsetnik za pregled",
+  "text": "o3 u 18:46",
+  "datum": {
+    "$date": {
+      "$numberLong": "1687027560000"
+    }
+  },
+  "datum_string": "Datum: 17/6/2023 Vreme:18:46",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "ne"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64edcbcf19df57341cc84b89"
+  },
+  "id": 14,
+  "tip": "Promena cene pregleda",
+  "text": "Promena cene pregleda o3na cenu 120",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "ne"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ee05b75f25794aead09f72"
+  },
+  "id": 15,
+  "tip": "Promena cene pregleda",
+  "text": "Promena cene pregleda o3na cenu 130",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "ne"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ee06715f25794aead09f98"
+  },
+  "id": 16,
+  "tip": "Promena cene pregleda",
+  "text": "Promena cene pregleda o3na cenu 200",
+  "korisnici": [
+    {
+      "korisnicko_ime": "pacijent5",
+      "procitao": "ne"
+    }
+  ],
+  "__v": 0
+}]

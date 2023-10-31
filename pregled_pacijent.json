@@ -1,0 +1,556 @@
+[{
+  "_id": {
+    "$oid": "64eda10d19df57341cc84ac3"
+  },
+  "lekar": "Calliope",
+  "lekar_kor": "lekar1",
+  "pacijent": "pacijent5",
+  "datum": {
+    "$date": {
+      "$numberLong": "1693612800000"
+    }
+  },
+  "datum_string": "2/9/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1693647660000"
+    }
+  },
+  "vremeOd_string": "9:41",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1693653660000"
+    }
+  },
+  "vremeDo_string": "11:21",
+  "pregled": {
+    "_id": "64eca18f5aa8386260d86019",
+    "naziv": "t8",
+    "cena": "100",
+    "trajanje": "100",
+    "specijalizacija": "hirurgija-traume",
+    "__v": 0
+  },
+  "ogranak": "trauma",
+  "obavestenje": 1,
+  "izvestaj": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda11319df57341cc84acb"
+  },
+  "lekar": "Calliope",
+  "lekar_kor": "lekar1",
+  "pacijent": "pacijent5",
+  "datum": {
+    "$date": {
+      "$numberLong": "1693612800000"
+    }
+  },
+  "datum_string": "2/9/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1693662360000"
+    }
+  },
+  "vremeOd_string": "13:46",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1693668360000"
+    }
+  },
+  "vremeDo_string": "15:26",
+  "pregled": {
+    "_id": "64eca18f5aa8386260d86019",
+    "naziv": "t8",
+    "cena": "100",
+    "trajanje": "100",
+    "specijalizacija": "hirurgija-traume",
+    "__v": 0
+  },
+  "ogranak": "trauma",
+  "obavestenje": 2,
+  "izvestaj": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda11819df57341cc84ad3"
+  },
+  "lekar": "Calliope",
+  "lekar_kor": "lekar1",
+  "pacijent": "pacijent5",
+  "datum": {
+    "$date": {
+      "$numberLong": "1695686400000"
+    }
+  },
+  "datum_string": "26/9/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1695735960000"
+    }
+  },
+  "vremeOd_string": "13:46",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1695741960000"
+    }
+  },
+  "vremeDo_string": "15:26",
+  "pregled": {
+    "_id": "64eca18f5aa8386260d86019",
+    "naziv": "t8",
+    "cena": "100",
+    "trajanje": "100",
+    "specijalizacija": "hirurgija-traume",
+    "__v": 0
+  },
+  "ogranak": "trauma",
+  "obavestenje": 3,
+  "izvestaj": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda12c19df57341cc84add"
+  },
+  "lekar": "Calliope",
+  "lekar_kor": "lekar1",
+  "pacijent": "pacijent5",
+  "datum": {
+    "$date": {
+      "$numberLong": "1698192000000"
+    }
+  },
+  "datum_string": "25/10/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1698241860000"
+    }
+  },
+  "vremeOd_string": "13:51",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1698247860000"
+    }
+  },
+  "vremeDo_string": "15:31",
+  "pregled": {
+    "_id": "64eca18f5aa8386260d86019",
+    "naziv": "t8",
+    "cena": "100",
+    "trajanje": "100",
+    "specijalizacija": "hirurgija-traume",
+    "__v": 0
+  },
+  "ogranak": "trauma",
+  "obavestenje": 4,
+  "izvestaj": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda13c19df57341cc84ae6"
+  },
+  "lekar": "Mira-chan",
+  "lekar_kor": "lekar3",
+  "pacijent": "pacijent5",
+  "datum": {
+    "$date": {
+      "$numberLong": "1692316800000"
+    }
+  },
+  "datum_string": "18/8/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1692351960000"
+    }
+  },
+  "vremeOd_string": "9:46",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1692353160000"
+    }
+  },
+  "vremeDo_string": "10:6",
+  "pregled": {
+    "_id": "64e6fff189163bd1fd7263d1",
+    "naziv": "o3",
+    "cena": "110",
+    "trajanje": "20",
+    "specijalizacija": "opsta-hirurgija",
+    "__v": 0
+  },
+  "ogranak": "opsta",
+  "obavestenje": 5,
+  "izvestaj": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda13f19df57341cc84aee"
+  },
+  "lekar": "Mira-chan",
+  "lekar_kor": "lekar3",
+  "pacijent": "pacijent5",
+  "datum": {
+    "$date": {
+      "$numberLong": "1692316800000"
+    }
+  },
+  "datum_string": "18/8/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1692369960000"
+    }
+  },
+  "vremeOd_string": "14:46",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1692371160000"
+    }
+  },
+  "vremeDo_string": "15:6",
+  "pregled": {
+    "_id": "64e6fff189163bd1fd7263d1",
+    "naziv": "o3",
+    "cena": "110",
+    "trajanje": "20",
+    "specijalizacija": "opsta-hirurgija",
+    "__v": 0
+  },
+  "ogranak": "opsta",
+  "obavestenje": 6,
+  "izvestaj": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda14719df57341cc84afe"
+  },
+  "lekar": "Mira-chan",
+  "lekar_kor": "lekar3",
+  "pacijent": "pacijent5",
+  "datum": {
+    "$date": {
+      "$numberLong": "1692230400000"
+    }
+  },
+  "datum_string": "17/8/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1692283560000"
+    }
+  },
+  "vremeOd_string": "14:46",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1692284760000"
+    }
+  },
+  "vremeDo_string": "15:6",
+  "pregled": {
+    "_id": "64e6fff189163bd1fd7263d1",
+    "naziv": "o3",
+    "cena": "110",
+    "trajanje": "20",
+    "specijalizacija": "opsta-hirurgija",
+    "__v": 0
+  },
+  "ogranak": "opsta",
+  "obavestenje": 8,
+  "izvestaj": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eda14d19df57341cc84b0e"
+  },
+  "lekar": "Mira-chan",
+  "lekar_kor": "lekar3",
+  "pacijent": "pacijent5",
+  "datum": {
+    "$date": {
+      "$numberLong": "1691193600000"
+    }
+  },
+  "datum_string": "5/8/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1691261160000"
+    }
+  },
+  "vremeOd_string": "18:46",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1691262360000"
+    }
+  },
+  "vremeDo_string": "19:6",
+  "pregled": {
+    "_id": "64e6fff189163bd1fd7263d1",
+    "naziv": "o3",
+    "cena": "110",
+    "trajanje": "20",
+    "specijalizacija": "opsta-hirurgija",
+    "__v": 0
+  },
+  "ogranak": "opsta",
+  "obavestenje": 10,
+  "izvestaj": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eee66c4e90dcec1a021007"
+  },
+  "lekar": "Kristina",
+  "lekar_kor": "lekar6",
+  "pacijent": "pacijent3",
+  "datum": {
+    "$date": {
+      "$numberLong": "1691539200000"
+    }
+  },
+  "datum_string": "9/8/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1691607240000"
+    }
+  },
+  "vremeOd_string": "18:54",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1691607840000"
+    }
+  },
+  "vremeDo_string": "19:4",
+  "pregled": {
+    "_id": "64e7000d89163bd1fd7263da",
+    "naziv": "k1",
+    "cena": "111",
+    "trajanje": "10",
+    "specijalizacija": "kardio-hirurgija",
+    "__v": 0
+  },
+  "ogranak": "kardio",
+  "obavestenje": 18,
+  "izvestaj": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eee6734e90dcec1a021017"
+  },
+  "lekar": "Kristina",
+  "lekar_kor": "lekar6",
+  "pacijent": "pacijent3",
+  "datum": {
+    "$date": {
+      "$numberLong": "1694217600000"
+    }
+  },
+  "datum_string": "9/9/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1694285640000"
+    }
+  },
+  "vremeOd_string": "18:54",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1694286240000"
+    }
+  },
+  "vremeDo_string": "19:4",
+  "pregled": {
+    "_id": "64e7000d89163bd1fd7263da",
+    "naziv": "k1",
+    "cena": "111",
+    "trajanje": "10",
+    "specijalizacija": "kardio-hirurgija",
+    "__v": 0
+  },
+  "ogranak": "kardio",
+  "obavestenje": 20,
+  "izvestaj": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eee67b4e90dcec1a021021"
+  },
+  "lekar": "Kristina",
+  "lekar_kor": "lekar6",
+  "pacijent": "pacijent3",
+  "datum": {
+    "$date": {
+      "$numberLong": "1695254400000"
+    }
+  },
+  "datum_string": "21/9/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1695322680000"
+    }
+  },
+  "vremeOd_string": "18:58",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1695323280000"
+    }
+  },
+  "vremeDo_string": "19:8",
+  "pregled": {
+    "_id": "64e7000d89163bd1fd7263da",
+    "naziv": "k1",
+    "cena": "111",
+    "trajanje": "10",
+    "specijalizacija": "kardio-hirurgija",
+    "__v": 0
+  },
+  "ogranak": "kardio",
+  "obavestenje": 21,
+  "izvestaj": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eee67f4e90dcec1a021029"
+  },
+  "lekar": "Kristina",
+  "lekar_kor": "lekar6",
+  "pacijent": "pacijent3",
+  "datum": {
+    "$date": {
+      "$numberLong": "1696032000000"
+    }
+  },
+  "datum_string": "30/9/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1696100280000"
+    }
+  },
+  "vremeOd_string": "18:58",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1696100880000"
+    }
+  },
+  "vremeDo_string": "19:8",
+  "pregled": {
+    "_id": "64e7000d89163bd1fd7263da",
+    "naziv": "k1",
+    "cena": "111",
+    "trajanje": "10",
+    "specijalizacija": "kardio-hirurgija",
+    "__v": 0
+  },
+  "ogranak": "kardio",
+  "obavestenje": 22,
+  "izvestaj": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eee6a34e90dcec1a02103c"
+  },
+  "lekar": "Calliope",
+  "lekar_kor": "lekar1",
+  "pacijent": "pacijent3",
+  "datum": {
+    "$date": {
+      "$numberLong": "1690848000000"
+    }
+  },
+  "datum_string": "1/8/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1690901700000"
+    }
+  },
+  "vremeOd_string": "14:55",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1690907100000"
+    }
+  },
+  "vremeDo_string": "16:25",
+  "pregled": {
+    "_id": "64e7002989163bd1fd7263e3",
+    "naziv": "t1",
+    "cena": "300",
+    "trajanje": "90",
+    "specijalizacija": "hirurgija-traume",
+    "__v": 0
+  },
+  "ogranak": "trauma",
+  "obavestenje": 23,
+  "izvestaj": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eee6a84e90dcec1a021044"
+  },
+  "lekar": "Calliope",
+  "lekar_kor": "lekar1",
+  "pacijent": "pacijent3",
+  "datum": {
+    "$date": {
+      "$numberLong": "1691798400000"
+    }
+  },
+  "datum_string": "12/8/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1691852100000"
+    }
+  },
+  "vremeOd_string": "14:55",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1691857500000"
+    }
+  },
+  "vremeDo_string": "16:25",
+  "pregled": {
+    "_id": "64e7002989163bd1fd7263e3",
+    "naziv": "t1",
+    "cena": "300",
+    "trajanje": "90",
+    "specijalizacija": "hirurgija-traume",
+    "__v": 0
+  },
+  "ogranak": "trauma",
+  "obavestenje": 24,
+  "izvestaj": null,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64eee6ad4e90dcec1a02104c"
+  },
+  "lekar": "Calliope",
+  "lekar_kor": "lekar1",
+  "pacijent": "pacijent3",
+  "datum": {
+    "$date": {
+      "$numberLong": "1700096400000"
+    }
+  },
+  "datum_string": "16/11/2023",
+  "vremeOd": {
+    "$date": {
+      "$numberLong": "1700150100000"
+    }
+  },
+  "vremeOd_string": "14:55",
+  "vremeDo": {
+    "$date": {
+      "$numberLong": "1700155500000"
+    }
+  },
+  "vremeDo_string": "16:25",
+  "pregled": {
+    "_id": "64e7002989163bd1fd7263e3",
+    "naziv": "t1",
+    "cena": "300",
+    "trajanje": "90",
+    "specijalizacija": "hirurgija-traume",
+    "__v": 0
+  },
+  "ogranak": "trauma",
+  "obavestenje": 25,
+  "izvestaj": null,
+  "__v": 0
+}]

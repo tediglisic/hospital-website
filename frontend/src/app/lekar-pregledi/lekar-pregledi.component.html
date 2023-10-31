@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocetna</title>
+</head>
+
+<body background="../../assets/back1.jpg" style="min-height: 100vh; min-width: 100vh; margin: 0%; 
+    background-repeat: no-repeat; background-position: center; background-size: cover;">
+
+    <div class="container" >
+        <div class="row" style="margin-bottom: 25px; display: flex; justify-content: center; width: 60%; margin-left: 20%;">
+           
+                <img src="/assets/logo.jpeg" style="margin-top: 20px; border-style: solid; border-color: black; ">
+            
+        </div>
+        
+        <menu  class="container"
+        style="background-color: rgb(1, 4, 20); display: flex; justify-content: center; margin-left: 20%;
+        height: 40px; padding-left: 0%; color: aliceblue; width: 60%;">
+                    <div class="row" style="display: flex; flex-direction: row; width: 100%;
+                     justify-content: space-evenly;">
+                        <div style="width: 100%; text-align: center; padding-top: 10px; " class="menu_border_exeption">
+                            <a routerLink="/lekar/pocetna" style="color: aliceblue; text-decoration-line: none;">Profil</a></div> 
+                        <div style="width: 100%; text-align: center;  padding-top: 10px;" class="menu_border">
+                            <a routerLink="/lekar/pregledi"style="color: aliceblue; text-decoration-line: none;" >Pregledi</a></div> 
+                       <div style="width: 100%; text-align: center;  padding-top: 10px;" class="menu_border">
+                        <a routerLink="/lekar/razno"style="color: aliceblue; text-decoration-line: none;" >Razno</a></div> 
+                                <div style="width: 100%; text-align: center;  padding-top: 10px;" class="menu_border">
+                                    <a routerLink=""style="color: aliceblue; text-decoration-line: none;" >Izloguj se</a></div>                       
+                   </div>  
+        </menu>
+
+        <div class="container" style="background-color: aliceblue; width: 60%; margin-left: 20%; padding-bottom: 10px;">
+            <div class="row" style="display: flex; justify-content: center;  margin-bottom: none;">
+                <div class="col-sm-12">
+                    <h3>
+                        Najskorija tri zakazana pregleda
+                    </h3>
+                </div>
+                
+            </div>
+            <hr>
+            <div class="row">
+                <div class="row">
+                    <div class="row" style="display: flex; flex-direction: row; margin-left: 10%; 
+                        background-color: rgb(252, 252, 252); margin-right: 10%; height: 200px;
+                        border-style: solid; margin-top: 10px;" *ngFor="let termin of buduci_termini">
+                    
+                        <div class="row" style="margin: 40px;">
+                            <div style="height: 30px;">
+                                Naziv pregelda: {{termin.pregled.naziv}}<br>
+                                Datum termina: {{termin.datum_string}}
+                                <hr style="color: black;">
+                            </div>
+                            <div style="margin-top: 10px;">
+                               <p>
+                                Vreme pregleda: {{termin.vremeOd_string}}-{{termin.vremeDo_string}} <br>
+                                Pacijent: {{termin.pacijent}} <br> 
+                               </p>
+                            </div>
+                            <div style="margin-top: 10px;">
+                                <button style="margin-right: 10px;" (click)="otkazi_termin(termin)">Otkazi termin</button>
+                                <button style="margin-right: 10px;" (click)="pogledaj_karton(termin)" >Vidi karton pacijenta</button>
+                            </div>
+                            
+                        </div>
+                    
+                </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row" style="display: flex; justify-content: center; margin-bottom: none;">
+                <div class="col-sm-12">
+                    <h3>
+                        Pregled zauzetosti ove i sledece nedelje
+                    </h3>
+                </div>
+                
+            </div>
+            <hr>
+            <div>
+                <div name="top-container">
+                    <div name="raspon-datuma" style="width: 80%; margin-left: 15%;">
+                        NEDELJA : od - do <button (click)="prethodnaNedelja()">prethodna</button> <button (click)="narednaNedelja()">sledeca</button>
+                    </div>
+                    <div name="dani u nedelji" style="width: auto; margin-right: 0px;">
+                        <table>
+                            <tr>
+                                <td></td>
+                                <td>Ponedeljak</td>
+                                <td>Utorak</td>
+                                <td>Sreda</td>
+                                <td>Cetvrtak</td>
+                                <td>Petak</td>
+                                <td>Subota</td>
+                                <td>Nedelja</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div name="bottom-container" style="display: flex; flex-direction: row; justify-content: left;">
+                    <div>
+                        <table style="width: auto; margin: 0px;">
+                            <tr>
+                                <td>9:00</td>
+                            </tr>
+                            <tr>
+                                <td>9:30</td>
+                            </tr>
+                            <tr>
+                                <td>10:00</td>
+                            </tr>
+                            <tr>
+                                <td>10:30</td>
+                            </tr>
+                            <tr>
+                                <td>11:00</td>
+                            </tr>
+                            <tr>
+                                <td>11:30</td>
+                            </tr>
+                            <tr>
+                                <td>12:00</td>
+                            </tr>
+                            <tr>
+                                <td>12:30</td>
+                            </tr>
+                            <tr>
+                                <td>13:00</td>
+                            </tr>
+                            <tr>
+                                <td>13:30</td>
+                            </tr>
+                            <tr>
+                                <td>14:00</td>
+                            </tr>
+                            <tr>
+                                <td>14:30</td>
+                            </tr>
+                            <tr>
+                                <td>15:00</td>
+                            </tr>
+                            <tr>
+                                <td>15:30</td>
+                            </tr>
+                            <tr>
+                                <td>16:00</td>
+                            </tr>
+                            <tr>
+                                <td>16:30</td>
+                            </tr>
+                            <tr>
+                                <td>17:00</td>
+                            </tr>
+                            <tr>
+                                <td>17:30</td>
+                            </tr>
+                            <tr>
+                                <td>18:00</td>
+                            </tr>
+                            <tr>
+                                <td>18:30</td>
+                            </tr>
+                            <tr>
+                                <td>19:00</td>
+                            </tr>
+                            <tr>
+                                <td>19:30</td>
+                            </tr>
+                            <tr>
+                                <td>20:00</td>
+                            </tr>
+                            
+                        </table>
+                    </div>
+                    <div name="1" class="dan">
+                        
+                    </div>
+                    <div name="2" class="dan">
+                    </div>
+                    <div name="3" class="dan"> 
+                        
+                    </div>
+                    <div name="4" class="dan">
+                        
+                    </div>
+                    <div name="5" class="dan">
+                        
+                    </div>
+                    <div name="6" class="dan">
+                        
+                    </div>
+                    <div name="7" class="dan">
+                        
+                    </div>
+                </div>
+               
+            </div>
+            <hr>
+            <div class="row" style="display: flex; justify-content: center; margin-bottom: none;">
+                <div class="col-sm-12">
+                    <h3>
+                        Unos izvestaja
+                    </h3>
+                </div>
+                
+            </div>
+            <hr>
+            <div class="row">
+                <div class="row">
+                   
+                    <div class="row" style="display: flex; flex-direction: row; margin-left: 10%; 
+                        background-color: rgb(252, 252, 252); margin-right: 10%; height: 250px;
+                        border-style: solid; margin-top: 10px;" *ngFor="let termin of termini_bez_izvestaja">
+                    
+                        <div class="row" style="margin: 40px;">
+                            <div style="height: 30px;"> <br>
+                                Naziv pregleda:  {{termin.pregled.naziv}}<br>
+                                Datum termina: {{termin.datum_string}} - {{termin.vremeOd_string}} : {{termin.vremeDo_string}} <br>
+                                Pacijent:  {{termin.pacijent}}<br>
+                                <hr style="color: black;">
+                            </div>
+                            <br><br><br>
+                            <div>
+                                <button (click)="unesi_izvestaj(termin)">Unesi izvestaj za pacijenta</button>
+                                <button (click)="pogledaj_karton(termin)">Pogledaj karton pacijenta</button>
+                            </div>
+                        </div>
+                        
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+      <footer style="height: 50px; background-color: rgb(5, 19, 44); margin-left: 20%; width: 60%; text-align: center; 
+      color: rgb(9, 46, 78); padding-top: 20px;"
+      >
+         footer@Teodora Glisic- Pia projekat
+      </footer>
+    
+
+<div id="myModal" class="modal">
+  <div class="modal-content" style="display: flex; flex-direction: column;">
+    <div style="display: flex; justify-content: right;">
+        <button class="close" (click)="izadji_izvestaj()">&times;</button>
+    </div>
+   <div *ngFor="let izvestaj of izvestaji">
+    <h2>Izvestaj</h2>
+    <hr>
+    Datum : {{izvestaj.datum_string}} <br>
+    Ime lekara : {{izvestaj.lekar_ime}}<br>
+    Specijalizacija lekara : {{izvestaj.specijalizacija}}  <br>
+    Preporucen datum narednog pregleda/kontrole : {{izvestaj.preporuceni_datum_pregleda_string}} <br>
+    <hr>
+    <h3>Razlog dolaska pacijenta</h3>
+    <hr>
+    {{izvestaj.razlog_dolaska}}
+    <br>
+    <h3>Dijagnoza</h3>
+    <hr>
+    {{izvestaj.dijagnoza}}
+    <br>
+    <h3>Terapija</h3>
+    <hr>{{izvestaj.preporucena_terapija}}
+    <br>
+     <div *ngIf="poruka_izvestaj_greska" style="color: red; display: flex; justify-content: center;">
+        {{poruka_izvestaj_greska}}
+     </div>
+   </div>
+  </div>
+
+</div>
+
+<div id="myModal1" class="modal">
+    <div class="modal-content" style="display: flex; flex-direction: column;">
+      <div style="display: flex; justify-content: right;">
+          <button class="close" (click)="odustani_otkazivanje()">&times;</button>
+      </div>
+     <div>
+      <h2>Otkazivanje termina</h2>
+      <hr>
+      Obrazlozenje otkaza:
+      <form action="">
+        <textarea name="name" id="" cols="70" rows="10" [(ngModel)]="razlog_otkazivanja"></textarea><br><br>
+        <button type="submit" (click)="otkazi_termin_potvrda()">Otkazi termin</button>
+      </form>
+     </div>
+    </div>
+  
+  </div>
+
+  <div id="myModal2" class="modal">
+    <div class="modal-content" style="display: flex; flex-direction: column;">
+      <div style="display: flex; justify-content: right;">
+          <button class="close" (click)="odustani_od_unosa()">&times;</button>
+      </div>
+     <div>
+      <h2>Nov izvestaj</h2>
+      <hr>
+        <form action="">
+            Preporucen datum narednog pregleda/kontrole : <input type="date" name="d" id="" [(ngModel)]="datum_ponovne_kontrole"> <br>
+            <hr>
+            <h3>Razlog dolaska pacijenta</h3>
+            <textarea name="unos" id="" cols="60" rows="5" [(ngModel)]="razlog_dolaska"></textarea>
+            <hr>
+            <br>
+            <h3>Dijagnoza</h3>
+            <textarea name="unos" id="" cols="60" rows="5" [(ngModel)]="dijagnoza"></textarea>
+
+            <hr>
+            <br>
+            <h3>Terapija</h3>
+            <textarea name="unos" id="" cols="60" rows="5" [(ngModel)]="terapija"></textarea>
+            <hr><br>
+            <button type="submit" (click)="potvrdi_unos_izvestaja()">Potvrdi unos</button>
+            <br>
+            <div *ngIf="poruka_izvestaj_greska" style="color: red; display: flex; justify-content: center;">
+                {{poruka_izvestaj_greska}}
+             </div>
+        </form>
+     </div>
+    </div>
+  
+  </div>
+</body>
+</html>
+
+
+
+
+
+

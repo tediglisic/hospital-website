@@ -1,0 +1,324 @@
+[{
+  "_id": {
+    "$oid": "64ecd65119df57341cc849ff"
+  },
+  "id": 1,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd65619df57341cc84a02"
+  },
+  "id": 2,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd65b19df57341cc84a05"
+  },
+  "id": 3,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd69a19df57341cc84a09"
+  },
+  "id": 4,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd6e619df57341cc84a0d"
+  },
+  "id": 5,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd71919df57341cc84a11"
+  },
+  "id": 6,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd73e19df57341cc84a15"
+  },
+  "id": 7,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd78a19df57341cc84a19"
+  },
+  "id": 8,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd7da19df57341cc84a1d"
+  },
+  "id": 9,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd83119df57341cc84a22"
+  },
+  "id": 10,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd83319df57341cc84a25"
+  },
+  "id": 11,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd83619df57341cc84a28"
+  },
+  "id": 12,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd85219df57341cc84a2c"
+  },
+  "id": 13,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd88b19df57341cc84a30"
+  },
+  "id": 14,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd8b619df57341cc84a34"
+  },
+  "id": 15,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd8ff19df57341cc84a38"
+  },
+  "id": 16,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ecd92419df57341cc84a3c"
+  },
+  "id": 17,
+  "izvestaji": [
+    {
+      "datum": "2023-08-28T14:41:46.451Z",
+      "datum_string": "28/8/2023 Vreme:16:41",
+      "lekar_ime": "Dr.Calliope Torress",
+      "specijalizacija": "hirurgija-traume",
+      "razlog_dolaska": "Tegoba u stomaku",
+      "dijagnoza": "Nnn",
+      "preporucena_terapija": "Terepija1",
+      "preporuceni_datum_pregleda": "2023-08-31",
+      "preporuceni_datum_pregleda_string": "31/8/2023"
+    }
+  ],
+  "__v": 0
+}]

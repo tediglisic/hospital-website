@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "64e73aa28971f9d2ca0ab408"
+  },
+  "korisnicko_ime": "tediglisic",
+  "email": "tediglisic@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ec846685ad28839b0495c6"
+  },
+  "korisnicko_ime": "pacijent1",
+  "email": "pacijent1@gmail.com",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ec908a3843acddb8dfa87c"
+  },
+  "korisnicko_ime": "pacijent4",
+  "email": "pacijent4@gmail.com",
+  "__v": 0
+}]

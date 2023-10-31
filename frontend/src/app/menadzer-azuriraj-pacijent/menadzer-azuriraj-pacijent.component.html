@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocetna</title>
+</head>
+
+<body background="../../assets/back1.jpg" style="min-height: 100vh; min-width: 100vh; margin: 0%; 
+    background-repeat: no-repeat; background-position: center; background-size: cover;">
+
+    <div class="container" >
+        <div class="row" style="margin-bottom: 25px; display: flex; justify-content: center; width: 60%; margin-left: 20%;">
+           
+                <img src="/assets/logo.jpeg" style="margin-top: 20px; border-style: solid; border-color: black; ">
+            
+        </div>
+        
+        <menu  class="container"
+        style="background-color: rgb(1, 4, 20); display: flex; justify-content: center; margin-left: 20%;
+                height: 40px; padding-left: 0%; color: aliceblue; width: 60%;">
+                    <div class="row" style="display: flex; flex-direction: row; width: 100%;
+                    justify-content: space-evenly;">
+                        <div style="width: 100%; text-align: center; padding-top: 10px; " class="menu_border_exeption">
+                            <a routerLink="/menadzer/pocetna" style="color: aliceblue; text-decoration-line: none;" >Pocetna</a></div> 
+                        <div style="width: 100%; text-align: center;  padding-top: 10px;" class="menu_border">
+                            <a routerLink=""style="color: aliceblue; text-decoration-line: none;">Izloguj se</a></div> 
+                    </div>
+                
+        </menu>
+
+        <div class="container" style="background-color: aliceblue; width: 60%; margin-left: 20%;">
+            <div class="row" style="display: flex; justify-content: center; margin-bottom: none;">
+                <div class="col-sm-12">
+                    <h3>
+                        Azuriraj pacijenta {{pacijent.ime}} {{pacijent.prezime}}
+                    </h3>
+                </div>
+            </div>
+            <hr>
+            <div class="row" style="display: flex; justify-content: center;">
+                <div style="padding: 10px;">
+                   
+                    <img [src]=url style="border-radius: 40%; border-style: solid; border-color: rgb(4, 37, 66);
+                    max-width: 300px; max-height: 300px;">
+                  
+                </div>
+
+                <div class="row" style="margin-top: 5%; margin-left: 20px;"> 
+                     <div>
+                        <form>
+                            Novo korisnicko ime:<br>
+                            <div *ngIf="poruka_korisnicko_ime" style="color: red;">
+                                {{poruka_korisnicko_ime}}
+                            </div>
+                            <input type="text" name="ime" [(ngModel)]="korisnicko_ime">
+                            <br>
+
+                            Novo ime:<br>
+                            <input type="text" name="ime" [(ngModel)]="ime">
+                            <br>
+
+                            Novo prezime:<br>
+                            <input type="text" name="prezime" [(ngModel)]="prezime">
+                            <br>
+
+                            Nova adresa:<br>
+                            <input type="text" name="adresa" [(ngModel)]="adresa">
+                            <br>
+     
+                            Nov kontakt telefon: +381-XX-XXX-XXXX<br>
+                            <div *ngIf="poruka_telefon"  style="color: red;">
+                                {{poruka_telefon}}
+                            </div>
+                            <input type="text" name="telefon" [(ngModel)]="telefon">
+                            <br>
+     
+                            Nova E-mail adresa:<br>
+                            <div *ngIf="poruka_email" style="color: red;">
+                                {{poruka_email}}
+                            </div>
+                            <input type="email" name="email" [(ngModel)]="email">
+                            <br>
+                            Dodaj profilnu sliku<br>
+                            <input type="file" (change)="onFileSelected($event)"><br>
+                            <div *ngIf="poruka_profilna_slika" style="color: green;">
+                                {{poruka_profilna_slika}}
+                            </div>
+                            <button (click)="azuriraj_sliku()">Azuriraj sliku</button><br>
+                            <button type="submit" style="margin-right: 10px; " (click)="azuriraj_promene()"> Azuriraj promene </button><br>
+                         </form>
+
+                       
+                     </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+        
+       
+  
+      <footer style="height: 50px; background-color: rgb(5, 19, 44); margin-left: 20%; width: 60%; text-align: center; 
+      color: rgb(9, 46, 78); padding-top: 20px;"
+      >
+         footer@Teodora Glisic- Pia projekat
+      </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "64cfc2a6f2f0b9d2002d193d"
+  },
+  "ime_specijalizacije": "kardio-hirurgija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64cfc2adf2f0b9d2002d1940"
+  },
+  "ime_specijalizacije": "opsta-hirurgija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64dbc0cd500dd40ed1647f3a"
+  },
+  "ime_specijalizacije": "hirurgija-traume",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ec8cd885ad28839b049695"
+  },
+  "ime_specijalizacije": "pedijatrija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ec8d2e85ad28839b049698"
+  },
+  "ime_specijalizacije": "dermatologija",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64ec8d5685ad28839b04969b"
+  },
+  "ime_specijalizacije": "urologija",
+  "__v": 0
+}]

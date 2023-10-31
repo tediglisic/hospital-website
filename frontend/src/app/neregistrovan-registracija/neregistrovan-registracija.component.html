@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocetna</title>
+</head>
+
+<body background="../../assets/back1.jpg" style="min-height: 100vh; min-width: 100vh; margin: 0%; 
+    background-repeat: no-repeat; background-position: center; background-size: cover;">
+
+    <div class="container" style="margin-bottom: 15px;">
+        <div class="row" style="margin-bottom: 25px; display: flex; justify-content: center; width: 60%; margin-left: 20%;">
+           
+                <img src="/assets/logo.jpeg" style="margin-top: 20px; border-style: solid; border-color: black; ">
+            
+        </div>
+        <menu class="container" style="background-color: rgb(1, 4, 20); display: flex; justify-content: center; margin-left: 20%;
+        height: 40px; padding-left: 0%; color: aliceblue; width: 60%;">
+        
+    <div class="row" style="display: flex; flex-direction: row; width: 100%;
+             justify-content: space-evenly;">
+        <div style="width: 100%; text-align: center; padding-top: 10px;" class="menu_border_exeption">
+            <a routerLink="" style="color: aliceblue; text-decoration-line: none;">Pocetna</a>
+        </div>
+        <div style="width: 100%; text-align: center;  padding-top: 10px;" class="menu_border">
+            <a routerLink="/nereg/pregled_lekara"
+                style="color: aliceblue; text-decoration-line: none;">Lekari</a>
+        </div>
+        <div style="width: 100%;text-align: center;  padding-top: 10px; " class="menu_border">
+            <a routerLink="/nereg/login" style="color: aliceblue; text-decoration-line: none;">Uloguj se</a>
+        </div>
+        <div style="width: 100%;text-align: center;  padding-top: 10px;" class="menu_border">
+            <a routerLink="/nereg/registracija" style="color: aliceblue; text-decoration-line: none;">Registruj
+                se</a>
+        </div>
+    </div>
+
+</menu>
+
+        <div class="container" style="background-color: aliceblue; width: 40%; margin-left: 30%; border-radius: 20px;">
+            <div class="row" style="display: flex; justify-content: center;  margin-bottom: none;">
+                
+                    <h3>
+                        Registruj se
+                    </h3>
+                
+            </div>
+            <hr>
+            <div class="row"  *ngIf="poruka_prazno_polje" style="color: red; display: flex; justify-content: center;"> 
+                {{poruka_prazno_polje}}
+              </div>
+              <br>
+            <div class="row" style="display: flex; justify-content: center;">
+                <div class="row" style="display: flex; justify-content: center; padding-bottom: 10px;">
+                   <form action="">
+
+                       Korisnicko ime: <p style="color: red; " *ngIf="poruka_korisnicko_ime">{{poruka_korisnicko_ime}} </p><br>
+                       <input type="text" name="korisniko_ime" [(ngModel)]="korisnicko_ime">
+                       <br>
+                       Lozinka : <p style="color: red;" *ngIf="poruka_lozinka">{{poruka_lozinka}}</p><br>
+                       <input type="password" name="lozinka" [(ngModel)]="lozinka">
+                       <br>
+
+                       Potvrda lozinke : <p style="color: red;" *ngIf="poruka_potvrda_lozinke">{{poruka_potvrda_lozinke}}</p> <br>
+                       <input type="password" name="potvrda_lozinke" [(ngModel)]="potvrda_lozinke">
+                       <br>
+
+                       Ime: <br>
+                       <input type="text" name="ime" [(ngModel)]="ime">
+                       <br>
+
+                       Prezime:<br>
+                       <input type="text" name="prezime" [(ngModel)]="prezime">
+                       <br>
+
+                       Adresa:<br>
+                       <input type="text" name="adresa" [(ngModel)]="adresa">
+                       <br>
+
+                       E-mail adresa: <p style="color: red;" *ngIf="poruka_email">{{poruka_email}}</p><br>
+                       <input type="email" name="email" [(ngModel)]="email">
+                       <br>
+
+                       Kontakt telefon: +381-XX-XXX-XXXX <p style="color: red;" *ngIf="poruka_telefon">{{poruka_telefon}}</p><br>
+                       <input type="tel" name="telefon" [(ngModel)]="telefon">
+                       <br>
+
+                       Dodaj profilnu sliku: <p style="color: red;" *ngIf="poruka_profilna_slika">{{poruka_profilna_slika}}</p><br>
+                       <input type="file" (change)="izabranaSlika($event)">
+                       <br>
+                       <div class="row"  *ngIf="poruka_uspesno_registrovan" style="color: green; display: flex; justify-content: center;"> 
+                        {{poruka_uspesno_registrovan}}
+                      </div><br>
+                      <div style="max-width: 300px; max-height: 300px;">
+                        <img [src]=url alt="" style="max-width: 300px; max-height: 300px;">
+                       </div>
+                       <br>
+                       <button type="submit" (click)="registracija()" >Registruj se</button><br>
+                   </form>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+        
+       
+  
+      <footer style="height: 50px; background-color: rgb(5, 19, 44); margin-left: 20%; width: 60%; text-align: center; 
+      color: rgb(9, 46, 78); padding-top: 20px;"
+      >
+         footer@Teodora Glisic- Pia projekat
+      </footer>
+
+   
+
+    
+</body>
+</html>
+
+

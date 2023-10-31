@@ -1,0 +1,34 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px;
+}
+
+td{
+    border: 1px solid black; 
+    padding: 10px; 
+}
+
+menu{
+    position: sticky;
+    top: 0;
+  }
+
+.menu_border{
+    border-style: solid !important;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-color: aliceblue;
+    
+  }
+  
+  .menu_border_exeption:hover{
+    background-color: rgb(9, 9, 77);
+    color: #1a1a1a;
+  }
+  
+  .menu_border:hover{
+    background-color: rgb(9, 9, 77);
+    color: #1a1a1a;
+  }
